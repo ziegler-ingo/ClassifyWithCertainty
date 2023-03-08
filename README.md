@@ -1,1 +1,1 @@
-# Improved Uncertainty-aware, reliable text classification
+# Uncertainty-aware, reliable text classification
