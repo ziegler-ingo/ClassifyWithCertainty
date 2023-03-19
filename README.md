@@ -32,6 +32,7 @@ It consists of two main steps:
 * Fit a Gaussian Mixture Model (GMM) with one component per class *after* training to discriminate between
 epistemic and aleatoric uncertainty
 	* Alternatively, temperature scaling may replace the GMM step
+* [Paper](https://arxiv.org/abs/2102.11582), [Code](https://github.com/omegafragger/DDU/blob/main/utils/gmm_utils.py)
 
 The differentiation between aleatoric and epistemic uncertainty allows for out-of-distribution
 detection because we seek to detect high epistemic uncertainty samples. 
